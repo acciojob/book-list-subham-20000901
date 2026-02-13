@@ -12,7 +12,7 @@ addBtn.addEventListener("click",function(e){
 		`<td>${title}</td>
 	     <td>${author}</td>
 		 <td>${isbn}</td>
-		 <td><button class="deleteBtn">X</button></td>`;
+		 <td><button class="delete">X</button></td>`;
 	
 	 booklist.appendChild(row);
 
