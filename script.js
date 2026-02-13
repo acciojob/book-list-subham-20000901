@@ -22,7 +22,7 @@ addBtn.addEventListener("click",function(e){
 })
 
 document.getElementById("book-list").addEventListener("click",function(e){
-	if(e.target.classList.contains("deleteBtn")) {
+	if(e.target.classList.contains("delete")) {
 		e.target.parentElement.parentElement.remove();
 	}
 })
